@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  cashub:
+    image: cashub
+    build:
+      context: ./cashub
+      dockerfile: Dockerfile
